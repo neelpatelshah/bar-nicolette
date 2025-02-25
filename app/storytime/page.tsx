@@ -93,7 +93,7 @@ export default function Storytime() {
       <div className="w-full flex flex-col justify-center items-center gap-8">
         {cocktails.map((cocktail) => (
           <div key={cocktail.name} className="w-full md:w-1/2">
-            <h2 className="text-xl font-semibold mb-2 font-yatra">
+            <h2 className="text-xl font-semibold mb-2 font-macondo">
               {cocktail.name}
             </h2>
             <div className="text-zinc-400 mb-3 font-arvo text-sm">

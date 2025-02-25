@@ -12,6 +12,7 @@ module.exports = {
         arvo: ["var(--font-arvo)"],
         yatra: ["var(--font-yatra)"],
         philosopher: ["var(--font-philosopher)"],
+        macondo: ["var(--font-macondo)"],
       },
     },
   },

@@ -5,6 +5,7 @@ import {
   Arvo,
   Yatra_One,
   Philosopher,
+  Macondo,
 } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
@@ -29,8 +30,13 @@ const philosopher = Philosopher({
   variable: "--font-philosopher",
   weight: "400",
 });
+const macondo = Macondo({
+  subsets: ["latin"],
+  variable: "--font-macondo",
+  weight: "400",
+});
 
-const fonts = `${inter.className} ${playfair.variable} ${arvo.variable} ${yatra.variable} ${philosopher.variable}`;
+const fonts = `${inter.className} ${playfair.variable} ${arvo.variable} ${yatra.variable} ${philosopher.variable} ${macondo.variable}`;
 
 export const metadata: Metadata = {
   title: "Bar Nicolette",

@@ -12,7 +12,7 @@ export default function AllMenus() {
           className="flex flex-col items-center gap-2 p-4 border-b border-white"
         >
           <h2 className="text-4xl font-semibold font-playfair">STORYTIME</h2>
-          <p className="text-zinc-400">{"Today's selection"}</p>
+          <p className="text-zinc-400 font-arvo">{"Today's selection"}</p>
         </Link>
       </div>
     </main>
