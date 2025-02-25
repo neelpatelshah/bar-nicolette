@@ -90,9 +90,9 @@ export default function Storytime() {
         <h1 className="text-4xl mb-2 font-playfair">STORYTIME</h1>
       </header>
 
-      <div className="w-full flex flex-col justify-center items-center gap-8">
+      <div className="w-full flex flex-col justify-center items-center gap-4">
         {cocktails.map((cocktail) => (
-          <div key={cocktail.name} className="w-full md:w-1/2">
+          <div key={cocktail.name} className="w-full md:w-1/2 pb-4">
             <h2 className="text-xl font-semibold mb-2 font-macondo">
               {cocktail.name}
             </h2>
