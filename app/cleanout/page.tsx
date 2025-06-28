@@ -10,8 +10,9 @@ export default function Storytime() {
 
       <div className="w-full flex flex-col justify-center items-center gap-4">
         <p className="text-zinc-300 font-philosopher text-sm px-4">
-          Pick a flavor or two, one to a couple vibes, and tell me how strong
-          you want it to be and I will try to make you something fun
+          {`Pick a flavor or two, one to a couple vibes, and tell me how strong
+          you want it to be and I will try to make you something fun. There's
+          also a Slushtin Bieber.`}
         </p>
         <h2 className="text-xl font-semibold font-macondo">Flavors</h2>
         <div className="text-zinc-400 mb-3 font-arvo text-sm text-center">
