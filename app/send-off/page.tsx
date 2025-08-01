@@ -13,7 +13,7 @@ const cocktails = [
       "Half margarita, half herb spiced limeade, this is a breezy and refreshing sour style cocktail with a unique something-something that is hopefully more intriguing than offputting.",
   },
   {
-    name: "So long, partner",
+    name: "So long, partner.",
     character: "Woody",
     ingredients: [
       "Olive Leaf Gin",
@@ -54,7 +54,7 @@ const cocktails = [
       "Lemon Peel",
     ],
     description:
-      "It's a martini but in my opinion, is goes down like a glass of iced tea. The tea infusion really takes the bite out of the gin, and the light honey sweetness is a nice finish.",
+      "It's a martini but in my opinion, it goes down like a glass of iced tea. The tea infusion really takes the bite out of the gin, and the light honey sweetness is a nice finish.",
   },
   {
     name: "Good afternoon, good evening, and good night.",
@@ -75,7 +75,7 @@ const cocktails = [
       "What started as a lightly interesting mai tai wound up being a fucked up concoction that's more like an insane dessert where you're like yeah sure I guess. For sure a fun one.",
   },
   {
-    name: "I'll be back",
+    name: "I'll be back.",
     character: "Terminator",
     ingredients: [
       "Jaggery",
