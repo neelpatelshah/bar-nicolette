@@ -13,6 +13,7 @@ module.exports = {
         yatra: ["var(--font-yatra)"],
         philosopher: ["var(--font-philosopher)"],
         macondo: ["var(--font-macondo)"],
+        "cutive-mono": ["var(--font-cutive-mono)"],
       },
     },
   },

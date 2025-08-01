@@ -6,6 +6,7 @@ import {
   Yatra_One,
   Philosopher,
   Macondo,
+  Cutive_Mono,
 } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
@@ -35,8 +36,13 @@ const macondo = Macondo({
   variable: "--font-macondo",
   weight: "400",
 });
+const cutive_mono = Cutive_Mono({
+  subsets: ["latin"],
+  variable: "--font-cutive-mono",
+  weight: "400",
+});
 
-const fonts = `${inter.className} ${playfair.variable} ${arvo.variable} ${yatra.variable} ${philosopher.variable} ${macondo.variable}`;
+const fonts = `${inter.className} ${playfair.variable} ${arvo.variable} ${yatra.variable} ${philosopher.variable} ${macondo.variable} ${cutive_mono.variable}`;
 
 export const metadata: Metadata = {
   title: "Bar Nicolette",
